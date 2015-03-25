@@ -1,0 +1,60 @@
+run:
+1 Jumbo Eagle Corp jumboeagle@example.com 100000
+2 New Enterprises www.new.example.com 50000
+25 Wren Computers www.wrencomp.example.com 25000
+3 Small Bill Company www.smallbill.example.com 90000
+36 Bob Hosting Corp. www.bobhostcorp.example.com 65000
+106 Early CentralComp www.centralcomp.example.com 26500
+149 John Valley Computers www.johnvalley.example.com 70000
+863 Big Network Systems www.bignet.example.com 25000
+777 West Valley Inc. www.westv.example.com 100000
+753 Zed Motor Co www.parts@ford.example.com 5000000
+722 Big Car Parts www.bparts.example.com 50000
+409 Old Media Productions www.oldmedia.example.com 10000
+410 Yankee Computer Repair Ltd www.nycompltd@repair.example.com 25000
+After first insert:
+1 Jumbo Eagle Corp jumboeagle@example.com 100000
+2 New Enterprises www.new.example.com 50000
+25 Wren Computers www.wrencomp.example.com 25000
+3 Small Bill Company www.smallbill.example.com 90000
+36 Bob Hosting Corp. www.bobhostcorp.example.com 65000
+106 Early CentralComp www.centralcomp.example.com 26500
+149 John Valley Computers www.johnvalley.example.com 70000
+863 Big Network Systems www.bignet.example.com 25000
+777 West Valley Inc. www.westv.example.com 100000
+753 Zed Motor Co www.parts@ford.example.com 5000000
+722 Big Car Parts www.bparts.example.com 50000
+409 Old Media Productions www.oldmedia.example.com 10000
+410 Yankee Computer Repair Ltd www.nycompltd@repair.example.com 25000
+235 Davi Lima Paulino davilimap@gmail.com 999999999
+After first edit:
+1 Jumbo Eagle Corp jumboeagle@example.com 100000
+2 New Enterprises www.new.example.com 50000
+25 Wren Computers www.wrencomp.example.com 25000
+3 Small Bill Company www.smallbill.example.com 90000
+36 Bob Hosting Corp. www.bobhostcorp.example.com 65000
+106 Early CentralComp www.centralcomp.example.com 26500
+149 John Valley Computers www.johnvalley.example.com 70000
+863 Big Network Systems www.bignet.example.com 25000
+777 West Valley Inc. www.westv.example.com 100000
+753 Zed Motor Co www.parts@ford.example.com 5000000
+722 Big Car Parts www.bparts.example.com 50000
+409 Old Media Productions www.oldmedia.example.com 10000
+410 Yankee Computer Repair Ltd www.nycompltd@repair.example.com 25000
+235 Bob Smith davilimap@gmail.com 999999999
+After deletion:
+1 Jumbo Eagle Corp jumboeagle@example.com 100000
+2 New Enterprises www.new.example.com 50000
+25 Wren Computers www.wrencomp.example.com 25000
+3 Small Bill Company www.smallbill.example.com 90000
+36 Bob Hosting Corp. www.bobhostcorp.example.com 65000
+106 Early CentralComp www.centralcomp.example.com 26500
+149 John Valley Computers www.johnvalley.example.com 70000
+863 Big Network Systems www.bignet.example.com 25000
+777 West Valley Inc. www.westv.example.com 100000
+753 Zed Motor Co www.parts@ford.example.com 5000000
+722 Big Car Parts www.bparts.example.com 50000
+409 Old Media Productions www.oldmedia.example.com 10000
+410 Yankee Computer Repair Ltd www.nycompltd@repair.example.com 25000
+End
+CONSTRUÍDO COM SUCESSO (tempo total: 1 minuto 8 segundos)
