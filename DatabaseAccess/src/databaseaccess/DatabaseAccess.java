@@ -1,8 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+ *
+ *Test program for database access in Java
+ *
+*/
+
 package databaseaccess;
 
 import java.io.*;
@@ -18,7 +19,9 @@ import java.sql.ResultSet;
  * @author Davi
  */
 
+
 class DatabaseShow {
+    //Prints all entries in the database
     static void printAllEntries(){
         try {
             String host = "jdbc:derby://localhost:1527/sample";
@@ -56,6 +59,7 @@ class DatabaseShow {
 }
 
 class DatabaseEdit{
+    //Inserts Davi Lima Paulino into database
     static void insertNewEntry(){
         try {
             String host = "jdbc:derby://localhost:1527/sample";
@@ -94,6 +98,7 @@ class DatabaseEdit{
         }
     }
     
+    //Changes Davi Lima Paulino to Bob Smith
     static void editEntry(){
         try {
             String host = "jdbc:derby://localhost:1527/sample";
@@ -119,7 +124,8 @@ class DatabaseEdit{
             System.out.print(err.getMessage());
         }
     }
-
+    
+    //Deletes the last entry in the database
     static void deleteEntry(){
         try {
             String host = "jdbc:derby://localhost:1527/sample";
@@ -155,17 +161,21 @@ public class DatabaseAccess {
         
         BufferedReader stream = new BufferedReader(new InputStreamReader(System.in));
         
+        //First, print all of the entries to show intial database state
         DatabaseShow.printAllEntries();
         stream.readLine();
         
+        //Insert new entry and print all entries to show change
         DatabaseEdit.insertNewEntry();
         DatabaseShow.printAllEntries();
         stream.readLine();
         
+        //Edit the inserted entry and prints to show changes
         DatabaseEdit.editEntry();
         DatabaseShow.printAllEntries();
         stream.readLine();
         
+        //Deletes the inserted entry and prints to show the changes
         DatabaseEdit.deleteEntry();
         DatabaseShow.printAllEntries();
         stream.readLine();
